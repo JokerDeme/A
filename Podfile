@@ -6,6 +6,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'A' do
 
-    pod "B_Category"
+    pod "B_Category", :path => "../B_Category"
     pod "HandyFrame"
 end
